@@ -1,6 +1,6 @@
 # your code goes here
 def begins_with_r(collection)
-  collection.each do |element|
+  collection.any? do |element|
     if element.upcase.start_with?('R')
     else
       return false
