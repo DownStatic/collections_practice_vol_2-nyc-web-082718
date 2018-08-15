@@ -8,3 +8,4 @@ def begins_with_r(collection)
     end
     return true
   end
+end
